@@ -71,11 +71,12 @@ if (isset($_POST['login'])) {
     <hr>
 </form>
 <div class="container">
+    <h2>TechTonic Oil Data Solution</h2>
     <div class="row">
         <div class="col-md-4 col-md-offset-4 well">
             <form role="form" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" name="loginform">
                 <fieldset>
-                    <legend>Login</legend>
+                    <legend style="text-align: center"><strong>Login</strong></legend>
 
                     <div class="form-group">
                         <label for="name">Email</label>
