@@ -41,11 +41,14 @@ if (isset($_POST['signup'])) {
         $cpassword_error = "Password and Confirm Password doesn't match";
     }
     if (!$error) {
+        echo "I am here 0";
         if (mysqli_query($link, "INSERT INTO users(username,email,password) VALUES('" . $name . "', '" . $email . "', '" . md5($password) . "')")) {
+            echo "I am here 1";
             $successmsg = "Successfully Registered!";
             header("refresh:5; url=login.php");
         } else {
             echo $error;
+            echo "I am here 3";
             $errormsg = "Error in registering...Please try again later!";
         }
     }
