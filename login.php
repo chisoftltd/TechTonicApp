@@ -23,7 +23,7 @@ if (isset($_POST['login'])) {
     if ($row = mysqli_fetch_array($result)) {
         $_SESSION['usr_id'] = $row['id'];
         $_SESSION['usr_name'] = $row['name'];
-        header("Location: signinindex.php");
+        header("Location: index.php");
     } else {
         $errormsg = "Incorrect Email or Password!!!";
     }

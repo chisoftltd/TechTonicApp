@@ -27,7 +27,7 @@ require_once 'dbconnect.php';
             <div class="collapse navbar-collapse" id="navbar1">
                 <ul class="nav navbar-nav navbar-right">
                     <?php if (isset($_SESSION['usr_id'])) { ?>
-                        <li><a href="signinindex.php">Home</a></li>
+                        <li><a href="index.php">Home</a></li>
                         <li class="active"><a href="about.php">About Us</a></li>
                         <li><a href="contact.php">Contact</a></li>
                         <li><p class="navbar-text">Signed in as <?php echo $_SESSION['usr_name']; ?></p></li>
