@@ -32,7 +32,6 @@ require_once 'dbconnect.php';
                         <li><a href="contact.php">Contact</a></li>
                         <li><p class="navbar-text">Signed in as <?php echo $_SESSION['usr_name']; ?></p></li>
                         <li><a href="logout.php">Log Out</a></li>
-                        <li><a href="registerresearcher.php">Register</a></li>
                     <?php } else { ?>
                         <li><a href="index.php">Home</a></li>
                         <li class="active"><a href="about.php">About Us</a></li>
