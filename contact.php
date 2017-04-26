@@ -147,6 +147,7 @@ if (isset($_POST["submit"])) {
         <hr>
     </form>
     <div class="container">
+        <h2 style="text-align: center">TechTonic Oil Data Solution</h2>
         <form class="form-horizontal" role="form" method="post" action="index.php">
             <div class="form-group">
                 <label for="name" class="col-sm-2 control-label">Name</label>
