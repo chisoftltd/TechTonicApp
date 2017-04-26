@@ -101,7 +101,7 @@ if (isset($_POST['login'])) {
     </div>
     <div class="row">
         <div class="col-md-4 col-md-offset-4 text-center">
-            New Researcher? <a href="registerresearcher.php">Register Here</a>
+            New User? <a href="registerresearcher.php">Register Here</a>
         </div>
     </div>
 </div>
