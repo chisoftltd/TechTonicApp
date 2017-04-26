@@ -60,7 +60,7 @@ unset($_session['user_id']);
 </div>
 <footer>
     <p style="text-align: center;">
-        &copy; 2010-<?php echo date("Y"); ?>
+        &copy; 2016-<?php echo date("Y"); ?>
     </p>
 </footer>
 <!-- jQuery library -->
