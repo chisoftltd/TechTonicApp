@@ -44,6 +44,7 @@ unset($_session['user_id']);
                     <li><a href="about.php">About Us</a></li>
                     <li><a href="contact.php">Contact</a></li>
                     <li><a href="login.php">Login</a></li>
+                    <li class="active"><a href="registerresearcher.php">Register</a></li>
                 <?php } ?>
             </ul>
         </div>
