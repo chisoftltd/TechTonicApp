@@ -46,7 +46,7 @@ require_once 'dbconnect.php';
         <hr>
     </form>
     <div class="container">
-        <h3>TechTonic Solution | Team</h3>
+        <h2 style="text-align: center">TechTonic Solution | Team</h2>
        
 
     </div>

@@ -89,7 +89,7 @@ if (isset($_POST['signup'])) {
     <hr>
 </form>
 <div class="container">
-    <h2>TechTonic Oil Data Solution</h2>
+    <h2 style="text-align: center">TechTonic Oil Data Solution</h2>
     <div class="row">
         <div class="col-md-4 col-md-offset-4 well">
             <form role="form" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" name="signupform">

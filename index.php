@@ -54,7 +54,7 @@ unset($_session['user_id']);
 </form>
 <div class="pageContent">
     <article class="article">
-        <h2>TechTonic Oil Data Solution</h2>
+        <h2 style="text-align: center">TechTonic Oil Data Solution</h2>
 
     </article>
 </div>
